@@ -1,7 +1,7 @@
 .profile {
   width: 250px;
   margin: 20px auto;
-  border: 1px solid #ccc;
+  border: 2px solid #000;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
@@ -23,7 +23,18 @@
   display: flex;
   justify-content: space-around;
   background-color: #eee;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.stats li {
+  border-top: 2px solid gray;
+  border-right: 2px solid gray;
+  width: 100%;
   padding: 10px;
+}
+.stats li:last-child {
+  border-right: none;
 }
 .label {
   display: block;
